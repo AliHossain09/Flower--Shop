@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?familyLato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
 }
-
-button{
+/* Header section */
+.button,
+button {
     font-family: 'Lato';
     border-radius: 8px;
     padding: 18px 32px;
@@ -14,32 +15,43 @@ button{
     color: #fff;
     border: none;
     font-size: 20px;
+    cursor: pointer;
+    transition: all 1s;
 }
 
-p{
+button:hover {
+    background: #ff0037;
+}
+
+.button:hover {
+    background: #ff0037;
+}
+
+p {
     color: #27272799;
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;  /* 166.667  */
+    line-height: 30px;
+    /* 166.667  */
 
 }
 
-header{
+header {
     background: #E554731A;
 }
 
-.container{
+.container {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.banner{
-display: flex;
-align-items: center;
-justify-content: space-between;
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .banner .banner-text * {
@@ -59,4 +71,185 @@ justify-content: space-between;
 .banner .banner-img img {
     width: 100%;
     vertical-align: middle;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flower .flower-img {
+    background: #eb9cad;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 20px 0;
+    height: 400px;
+    display: flex;
+}
+
+.section-content .flower .flower-img img {
+    width: 99%;
+}
+
+.section-content .flower .Pink {
+    background: #A7216226;
+}
+
+.section-content .flower .blue {
+    background: #0597A026;
+}
+
+.section-content .flower .green {
+    background: #477D1126;
+}
+
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+.img-section {
+    background: #2727270D;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Main section */
+
+.Collect {
+    margin-top: 50px;
+    background: #E554730D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layout {
+    text-align: center;
+    margin: auto;
+
+}
+
+.distracted {
+    color: #E55473;
+}
+
+.Collect .layout h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.Collect .layout p {
+    margin-bottom: 16px;
+}
+
+.pic {
+    width: 40%;
+    vertical-align: middle;
+}
+
+/*  */
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.DOCTYPE {
+    width: 23%;
+}
+
+.Asset {
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 300px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.Lorem {
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.Flower---Shop {
+    margin: 0 auto;
+}
+
+.Group {
+    text-align: center;
+    padding: 50px;
+}
+
+.Latest-Deals {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer section */
+
+.Instagram{
+    background: #111010;
+}
+
+.section-footer{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 100px;
+}
+#flower{
+    color: #E55473;
+}
+
+.shop-title{
+    color: white;
+    font-size: 50px;
+}
+
+.footer-discription{
+    color: white;
+    margin: 20px 0 0 20px;
 }
