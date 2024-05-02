@@ -212,6 +212,8 @@ header {
     width: 500px;
     display: flex;
     align-items: center;
+    border-radius: 7px;
+    padding-left: 10px;
 }
 
 .Flower---Shop {
